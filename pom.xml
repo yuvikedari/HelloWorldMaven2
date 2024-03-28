@@ -22,6 +22,9 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://3.84.4.116:8081/repository/maven-releases/</url>
   </repository>
+  <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///var/lib/jenkins/myartifacts/</url>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
